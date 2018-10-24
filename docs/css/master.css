@@ -64,7 +64,7 @@
 }
 
 .font-kozgopr6n {
-  font-family: 'KozGoPr6N';
+  font-family: KozGoPr6N;
 }
 
 .font-tsukuminpro {
@@ -205,6 +205,10 @@ footer {
   height: 12rem;
 }
 
+.h-100vh-minus-nav {
+  height: calc(100vh - 4rem);
+}
+
 #mySidenav {
   width: 0;
 }
@@ -213,15 +217,11 @@ footer {
   width: 16rem;
 }
 
-#first-view {
-  height: calc(100vh - 5rem);
-}
-
 .sidenav .nav-item {
   padding-left: 1rem;
 }
 
-.over-hide {
+.over-hideen {
   overflow: hidden;
 }
 
@@ -259,6 +259,7 @@ transition: opacity ease-out .7s;
   padding-top: 3rem;
   /* Place content 60px from the top */
   transition: 0.5s;
+  white-space: nowrap;
 }
 
 .navbar .nav-link:hover {
@@ -363,6 +364,10 @@ transition: opacity ease-out .7s;
 
   .h-lg-100vh {
     height: 100vh;
+  }
+
+  .h-100vh-minus-nav {
+    height: calc(100vh - 5rem);
   }
 }
 
