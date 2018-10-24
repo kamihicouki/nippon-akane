@@ -14,9 +14,15 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-light bg-light fixed-top">
-        <a class="navbar-brand bg-black text-white" href="#">NIPPON AKANE</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 sidenav" id="mySidenav">
+      <nav class="navbar sticky-top navbar-light">
+        <a class="navbar-brand p-0 bg-gray" href="#">
+          <img src="./images/asset_NIPPON_AKANE@3x.png" alt="" width="200">
+        </a>
+        <!-- <span class="navbar-symbol"> -->
+        <!-- <img src="./images/asset_シンボル@3x.png" alt=""> -->
+        <!-- </span> -->
+
+        <ul class="navbar-nav sidenav" id="mySidenav">
           <li class="nav-item">
             <a class="nav-link" href="#">トップ へ</a>
           </li>
@@ -53,78 +59,105 @@
           <li class="nav-item">
             <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
         </ul>
-        <div class="sidenav">
-          <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Clients</a>
-          <a href="#">Contact</a>
-        </div>
-        <a class=" d-flex flex-column justify-content-around align-items-center  menu-trigger bg-transparent " id="navbarToggle">
+        <a class="d-flex flex-column justify-content-around align-items-center  menu-trigger  " id="navbarToggle">
           <span class="trigger-line"></span>
           <span class="trigger-line"></span>
           <span class="trigger-line"></span>
           <span class="trigger-text active">MENU</span>
           <span class="trigger-text">CLOSE</span>
         </a>
-
       </nav>
     </header>
 
-    <section>
-      <div class="jumbotron jumbotron-fluid h-100vh">
-        <div class="container">
-        </div>
-        <div class="container-fluid">
-          <div class="row fixed-bottom">
-            <div class="col-12 text-center border">
-              <i class="fas fa-angle-double-down"></i>
+    <section id="first-view" class="h-lg-100vh border">
+      <div class="jumbotron-fluid bg-transparent over-hide border">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-interval="3500" data-ride="carousel" data-keyboard="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="img-fluid" src="./images/DSCF6462.jpg" alt="">
+              <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide"> -->
             </div>
-            <div class="col-12 text-center bg-light">
-              <div class="d-flex flex-column flex-lg-row justify-content-around justify-lg-between align-items-center border">
-                <p class="col-12 border">NIPPON AKANE SUPPORTER</p>
-                <p class="col-12 border">NEWS | 日本茜サミットを開催します</p>
-                <p class="border align-self-end">詳しくはこちら</p>
-              </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="./images/DSCF6013.jpg" alt="">
+              <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide"> -->
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="./images/DSCF3211.jpg" alt="">
+              <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide"> -->
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="./images/S__68599818.jpg" alt="">
+              <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide"> -->
+            </div>
+            <div class="carousel-item">
+              <img class="img-fluid" src="./images/DSCF6451.jpg" alt="">
+              <!-- <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide"> -->
             </div>
           </div>
-
         </div>
+        <!-- <div class="bg-akane p-2 text-center  d-flex flex-column flex-lg-row justify-content-between justify-lg-around align-items-center text-white">
+          <span class=" font-myriadpro">NIPPON AKANE SUPPORTER</span>
+          <span class=" font-kozgopr6n">NEWS | 日本茜サミットを開催します</span>
+          <span class="align-self-end ">詳しくはこちら</span>
+        </div> -->
       </div>
     </section>
 
     <section id="revival-akane">
-
       <div class="container">
         <div class="row">
+          <div class="col-12 py-3">
+            <div class="d-flex flex-wrap">
+              <span class="mx-auto text-akane bg-akanee-transparent p-1 h5 font-tsukuminpro p-2">日本の本来の赤を復活させる。</span>
+              <span class="mx-auto text-akane bg-akanee-transparent p-1 h5 font-tsukuminpro p-2">その為のブランド化。</span>
+            </div>
+          </div>
           <div class="col-12 text-center">
-            <p class="text-akane">日本の本来の赤を復活させる。その為のブランド化。</p>
-            <p class="">私たちは、幻といわれた染草 “日本茜 “の復活を目指しています。 </p>
-            <p class="">古代から近世まで高貴な色として親しまれてきた日本の「日の丸の色」日本茜。</p>
-            <p class="">特に日本女性にとっては、万葉集でも読まれている恋焦がれる茜です。 その茜を「NIPPON AKANE」という形でブランド化し、農産物とし、植物染料として復活させ、日本を象徴する色 “JapanRed®” まで推し進めようという取り組みです。</p>
+            <p class="font-kozgopr6n font-weight-light">私たちは、幻といわれた染草 “日本茜 “の復活を目指しています。 </p>
+            <p class="font-kozgopr6n font-weight-light">古代から近世まで高貴な色として親しまれてきた日本の「日の丸の色」日本茜。</p>
+            <p class="font-kozgopr6n font-weight-light">特に日本女性にとっては、万葉集でも読まれている恋焦がれる茜です。 その茜を「NIPPON AKANE」という形でブランド化し、農産物とし、植物染料として復活させ、日本を象徴する色 “JapanRed®” まで推し進めようという取り組みです。</p>
           </div>
         </div>
       </div>
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-lg-6 text-center border">
+          <div class="col-12 d-flex flex-column d-lg-flex flex-lg-row p-0">
+            <div class="position-relative d-flex justify-content-center align-items-center panel over-hide">
+              <img src="./images/S__68599811.jpg" alt="" class="position-absolute img-fluid">
+              <span class="position-absolute text-white">NIPPON AKANE を扱いたい</span>
+            </div>
+            <div class="position-relative d-flex justify-content-center align-items-center panel over-hide">
+              <img src="./images/S__68599819.jpg" alt="" class="position-absolute img-fluid">
+              <span class="position-absolute text-white">日本茜を栽培したい</span>
+            </div>
+            <div class="position-relative d-flex justify-content-center align-items-center panel over-hide">
+              <img src="./images/S__68763658.jpg" alt="" class="position-absolute img-fluid">
+              <span class="position-absolute text-white">NIPPON AKANE とは</span>
+            </div>
+
+          </div>
+          <div class="col-12 col-lg-6 p-0">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row py-3">
+          <div class="col-12 col-lg-6 text-center ">
             <div class="row">
-              <div class="col-12 border">
-                <span>NIPPON AKANE を扱いたい</span>
+              <div class="col-12 ">
+
               </div>
-              <div class="col-12 border">
-                <span>日本茜を栽培したい</span>
+              <div class="col-12 ">
+
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-6 text-center border">
-            <span>NIPPON AKANE とは</span>
+          <div class="col-12 col-lg-6 text-center ">
+
           </div>
         </div>
       </div>
@@ -134,22 +167,22 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h3 class="border-bottom">日本茜について</h3>
+            <h3 class="border-akane-bottom text-akane">日本茜について</h3>
             <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入り ます。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキスト
               が入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
           </div>
           <div class="col-12">
             <div>
               <!-- Nav pills -->
-              <ul class="nav nav-pills d-flex flex-fill" role="tablist">
+              <ul class="nav nav-pills d-flex flex-nowrap bg-light" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link p-1 active" data-toggle="pill" href="#history-akane">日本茜の歴史</a>
+                  <a class="nav-link flex-fill rounded-0 text-center  active" data-toggle="pill" href="#history-akane">日本茜の歴史</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link p-1" data-toggle="pill" href="#color-akane">日本茜で作る色</a>
+                  <a class="nav-link flex-fill rounded-0 text-center " data-toggle="pill" href="#color-akane">日本茜で作る色</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link p-1" data-toggle="pill" href="#facility-akane">日本茜関連施設</a>
+                  <a class="nav-link flex-fill rounded-0 text-center " data-toggle="pill" href="#facility-akane">日本茜関連施設</a>
                 </li>
               </ul>
 
@@ -158,143 +191,145 @@
                 <!-- 日本茜の歴史 -->
                 <div id="history-akane" class="container tab-pane active"><br>
                   <div class="row">
-                    <div class="col-12 border">
-                      <h4>歴史</h4>
+                    <div class="col-12 border-akane-bottom mb-2">
+                      <h4 class="text-akane">歴史</h4>
                     </div>
-                    <div class="col-11 col-lg-10 border">
-                      <div class="row">
-                        <div class="col-12 col-lg-8">
-                          <p> 弥生時代(紀元前 400 年頃)
+                    <div class="col-11 col-lg-10 ">
+                      <div class="row border-akane py-2">
+                        <div class="col-12 col-lg-8 ">
+                          <h5 class="text-akane">弥生時代(紀元前 400 年頃)</h5>
+                          <p>
                             吉野ケ里遺跡から出土された透目絹の中に、一見して染色されているものが幾つかあり、 前田雨城氏らの研究グループが分光蛍光光度計による測定と解析を行った結果、日本茜
                             と貝紫が検出されました。これにより、赤と紫に染められた透目絹が存在したことが確 認されています。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 弥生時代(200 年~300 年)
+                          <h5 class="text-akane">弥生時代(200 年~300 年)</h5>
+                          <p>
                             『魏志倭人伝』に邪馬台国の女王卑弥呼(2~3世紀)が魏の王に献上したものの一つに「絳青縑」 ( 赤や青の絹布)と記述があり、「絳」は「あかきねりぎぬ」即ち『茜染の絹布』であることから、 この時代にすでに日本茜で緋色を染める技法が完成していたと言えます。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image-1.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 飛鳥時代(700 年~710 年)
+                          <h5 class="text-akane">飛鳥時代(700 年~710 年)</h5>
+                          <p>
                             文武天皇が即位した 700 年頃、唐(現在の中国)の律令制に習って日本にも中央集権国家が成立します。日本の律令 制において、官人に付与する位階に相当する服色が決められていて時代により若干変化するが概ね茜色系は上位2位に 制定されていました。 孝徳天皇の冠位に見られる「真緋」、持統天皇の「緋」、そのあとの「浅緋」なども、いずれも日本茜の根を染料として
                             染められたものであり、紫根で染める紫色が最高位でその次に緋色系(日本茜染め)が高い位の色に制定されていたよ
                             うです。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image-2.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 奈良時代(700 年~710 年)
+                          <h5 class="text-akane">奈良時代(700 年~710 年)</h5>
+                          <p>
                             7世紀後半から8世紀後半にかけて編まれた日本に現存する最古の和歌集です。その中に、茜、茜草、赤根、 安可根等で表現され人気のあった枕詞として登場します。
                             代表的な歌では、「あかねさす紫野行き標野行き野守は見ずや君が袖振る」額田王作があります。 解釈「紫草の栽培地や、天皇狩場として標 ( しめ ) を張ったその野を行きながら、そんなことをして。野の 番人が見るではございませんか。あなたが私の気を引こうと袖を振っておられるのを。」</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image-3.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 平安時代(905 年~927 年)
+                          <h5 class="text-akane">平安時代(905 年~927 年)</h5>
+                          <p>
                             醍醐天皇の命により 905 年編集に着手，927 年完した養老律令の施行細則を集大成した法典「延喜式」に、日本 茜に関する記述が残されております。 当時は染色はすべて植物による草木染めで、階位によって定められた服色があり、それを染めるための材料の数 量がきっちりと示されていました。いわば、当時の標準色を染めるためのマニュアルです。なお、薪などの燃料の
                             分量も書かれてあります。おそらく火力や温度の調節のためであると考えられます。
                             当時は着物用の絹反物を 2 反染めるのに、膨大な茜(赤根)が使われていたようです。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image-4.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 平安時代末期
+                          <h5 class="text-akane">平安時代末期</h5>
+                          <p>
                             武蔵御嶽神社所蔵の国宝「赤糸威鎧」は、著名な鎌倉武武蔵御嶽神社所蔵の国宝「赤糸威鎧」は著名な鎌倉武士である畠山重忠が奉納し たと伝わる平安時代後期の、日本を代表する大鎧です。 この赤糸縅鎧の赤糸は往時の植物染料の茜で染められ今も鮮やかな赤色を保っています。しかしその技術は伝承されず、明治 36 年 (1903) の補修では、鉱物染料で染められ、その部分は現在退色しています。
                             深緋(こきひ)浅緋(うすきひ)の緋は茜で染めた色を指すが、茜の赤色色素であるプルプリンを高純度に精製した色ですが、蘇芳の出現 により安易に色を出せることで茜での染めが途絶えがちになりました。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
-                        </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 江戸時代末期(1853 年~1867 年)
+                          <h5 class="text-akane">江戸時代末期(1853 年~1867 年)</h5>
+                          <p>
                             1853 年ペリー率いる米国艦隊の黒船来航、翌 1854 年には、日米和親条約締結に至りました。 1854 年(嘉永 7 年)3 月の日米和親条約調印後、日本船を外国船と区別するための標識が必要 となり、日本国共通の船舶旗(日本惣船印)を制定する必要が生じました。島津斉彬が日本の船 印(船に掲げる旗)として日の丸を幕府に進言したのですが、薩摩藩には日の丸を赤く染める技
                             術がなく斉彬は苦慮しました。そこで大叔父の福岡藩藩主・黒田長溥に相談したところ、福岡藩 内(現在の筑穂町)で古くから伝わる「筑前茜染め」があることを聞き、福岡藩の穂波郡山口村 茜屋に家臣をつかわして古くから伝わる茜染めの技術を修得させ「日の丸」を染めさせました。 その後、幕府は 1854 年 8 月 4 日(嘉永 7 年 7 月 11 日)、「日の丸」を日本国総船印に制定しました。 翌 1859 年(安政 6
                             年)、幕府は縦長の幟(正確には四半旗)から横長の旗に代えて日章旗を「御 国総標」にするという触れ書きを出しました。日章旗が事実上「国旗」としての地位を確立した瞬 間です。 筑前茜染は、日本茜の根を染料とする染め技法で、江戸時代初期、筑穂町茜屋地区の染物師が 偶然発見し、「黒田藩の秘宝」として幕末まで守り伝えてきたものでした。</p>
                         </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
+                        <div class="col-12 col-lg-4 text-center">
+                          <img src="./images/image-5.jpg" alt="image" class="img-fluid">
                         </div>
                       </div>
-                      <div class="row">
+                      <div class="row border-akane py-2">
                         <div class="col-12 col-lg-8">
-                          <p> 現代(2018 年~)
+                          <h5 class="text-akane">現代(2018 年~)</h5>
+                          <p>
                             coming soon</p>
-                        </div>
-                        <div class="col-12 col-lg-4">
-                          <img src="" alt="image" class="border">
                         </div>
                       </div>
 
-                      <div class="col-1 col-lg-2 border">
+                      <div class="col-1 col-lg-2 ">
                         <!-- padding -->
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="color-akane" class="container tab-pane fade"><br>
+
+                <div id="color-akane" class=" tab-pane fade"><br>
                   <div class="row">
-                    <div class="col-12 border">
-                      <h4>日本茜を使った色</h4>
+                    <div class="col-12 ">
+                      <h4 class="border-akane-bottom text-akane">日本茜を使った色</h4>
                     </div>
-                    <div class="col-12 border">
-                      <h5>茜色(あかねいろ)</h5>
-                      <div class="color-box border">color-box</div>
+                    <div class="col-12">
+                      <h5 class="text-akane">茜色(あかねいろ)</h5>
+                      <div class="color-box bg-akane"></div>
                       <p>日本茜の根で染めた暗い赤色。夕暮れ時の空の形容などに良く用いられることで知られています。日本茜を染料として得る色には他に、緋色がありますが、こちらは 鮮やかな赤色で茜色よりはるかに明るい色合いです。</p>
                     </div>
-                    <div class="col-12 border">
-                      <h5>緋(あけ)・緋色(ひいろ)</h5>
-                      <div class="color-box border">color-box</div>
+                    <div class="col-12">
+                      <h5 class="text-ake">緋(あけ)・緋色(ひいろ)</h5>
+                      <div class="color-box bg-ake"></div>
                       <p>やや黄色みのある鮮やかな赤色。平安時代から用いられた伝統色名。山野に自生する多年草の日本茜を染料とし、灰汁で媒染した色。色名の「あけ」は日や火の色 という意味。推古天皇の時代以来、紫に次ぐ高位の色になり、奈良時代に定められた服飾尊卑では 19 色の中で 5 番目に位置づけられました。平安時代の中頃から
                         染法が変わり、それに伴い色調も鮮やかな赤色に、読み方も「緋色」となりました。 </p>
                     </div>
-                    <div class="col-12 border">
-                      <h5>深緋(こきあけ)</h5>
-                      <div class="color-box border">color-box</div>
+                    <div class="col-12">
+                      <h5 class="text-kokiake">深緋(こきあけ)</h5>
+                      <div class="color-box bg-kokiake"></div>
                       <p>茜染めによる暗い赤色で、「こきあけ」や「ふかひ」などと呼ばれることもあります。緋色は日本茜だけで染めますが、深緋は日本茜に紫草を上染するのでとても手 間がかかった。「延喜式」では紫に次ぐ高位の朝服の色でした。</p>
                     </div>
-                    <div class="col-12 border">
-                      <h5>浅緋(あさあけ)</h5>
-                      <div class="color-box border">color-box</div>
+                    <div class="col-12">
+                      <h5 class="text-asaake">浅緋(あさあけ)</h5>
+                      <div class="color-box bg-asaake"></div>
                       <p>日本茜で薄く染めた緋色。わずかに黄みがかった赤色。大宝元年の服制では「直冠上四階深緋。下四階浅緋」となっており、『延喜式』においては紫、深緋、浅緋 と、上から 3 番目に高位だった色です。一般に緋あるいは真緋といわれる色はこの浅緋を指しています。「うすきひ」、「うすあけ」ともいいます。</p>
                     </div>
-
                   </div>
                 </div>
                 <!-- 日本茜関連施設 -->
-                <div id="facility-akane" class="container tab-pane fade"><br>
+                <div id="facility-akane" class=" tab-pane fade"><br>
                   <div class="row">
-                    <div class="col-12 border">
-                      <h4>日本茜関連施設</h4>
+                    <div class="col-12 ">
+                      <h4 class="border-akane-bottom text-akane">日本茜関連施設</h4>
                     </div>
-                    <div class="col-12 border">
-                      <h5>日本茜関連施設</h5>
+                    <div class="col-12 ">
+                      <h5 class="text-akane">日本茜関連施設</h5>
                       <p>古くから伝えられてきた日本の染織文化やその魅力を多くの人々に伝えるために造られた植物染色のテーマパークです。園内には染料植物の道をメインに、昔から 衣服などを染める原料に使われてきた代表的な染料植物が、たくさん植えられています。染色工芸館では染織品を展示し、草や木から染められるさまざまな色を見
                         ることができます。また、草木染・藍染の講習会や染色体験では、自然の織りなす色を肌で感じ、時を超えた彩りの世界を楽しむことができます。
                         〒370-0865 高崎市寺尾町 2302-11
                         OPEN:9:00 ~ 16:30(4 月~ 8 月までの土・日、祝日は 9:00 ~ 18:00)※入園は閉園 30 分前まで TEL:027-328-6808
                         HP: http://www.city.takasaki.gunma.jp/docs/2017082200011/</p>
                     </div>
-                    <div class="col-12 border">
-                      <h5>財団法人覚誉会 繊維染色研究所</h5>
+                    <div class="col-12 ">
+                      <h5 class="text-akane">財団法人覚誉会 繊維染色研究所</h5>
                       <p>昭和 57 年に創設された染料植物園を備えた繊維染色研究を目的とした研究・実験施設。 初代研究所長は、京都工芸繊維大学名誉教授の相宅省吾氏で、平成 14 年まで所長として着任。 また、植物染料とその染色の研究に多大の功績を残された奈良大学名誉教授の新井清氏も新旧の研究・実験室で 10 年間、研究を続けていた。
                         平成 14 年には測定機器を充実させた研究室「大道」を新設し、さらに平成 16 年には、大道に隣接して第2実験室を建設しました。これにより、実験と計測の便 宜性が一層高まりました。
                         繊維染色研究所では、研究論文集「葆光(ほうこう)」を 1989 年より、年一回発行しています。
@@ -315,64 +350,137 @@
     </section>
 
     <!-- NIPPON AKANE を扱いたい  -->
-    <section>
-      <div class="container-fluid">
+    <section id="handling-akane">
+      <div class="container-fluid my-3">
         <div class="row">
-          <div class="col-6 col-lg-3 d-flex flex-column justify-content-around align-items-center border">
-            <p>糸を扱いしたい</p>
-            <img src="" alt="image">
-            <p>綿糸・絹糸・毛糸・合成繊維など</p>
+          <div class="col-6 col-lg-3 bg-akane py-5 py-lg-5rem   border">
+            <div class="d-flex flex-column justify-content-around align-items-center text-white h-12rem">
+              <span>糸を扱いしたい</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.48 55.85" class="icon">
+                <defs>
+                  <style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}</style>
+                </defs>
+                <title>アセット 1</title>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                  <g id="デザイン">
+                    <path d="M43.55,28.43a.5.5,0,0,1-.5-.5V16.17a.49.49,0,0,1,.29-.45,6.15,6.15,0,0,0,3.14-5.67c0-9-14.79-9-22.74-9S1,1,1,10.05a6.15,6.15,0,0,0,3.14,5.67.49.49,0,0,1,.29.45V27.93a.5.5,0,0,1-1,0V16.47A7.21,7.21,0,0,1,0,10.05C0,0,15.44,0,23.74,0S47.48,0,47.48,10.05a7.21,7.21,0,0,1-3.43,6.42V27.93A.5.5,0,0,1,43.55,28.43Z" />
+                    <path d="M23.74,55.85c-8.3,0-23.74,0-23.74-10a7.21,7.21,0,0,1,3.43-6.43V27.93a.5.5,0,0,1,1,0V39.68a.48.48,0,0,1-.29.45A6.17,6.17,0,0,0,1,45.81c0,9,14.79,9,22.74,9s22.74,0,22.74-9a6.17,6.17,0,0,0-3.14-5.68.48.48,0,0,1-.29-.45V27.93a.5.5,0,1,1,1,0V39.38a7.21,7.21,0,0,1,3.43,6.43C47.48,55.85,32,55.85,23.74,55.85Z" />
+                    <path d="M43.55,40.18H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,40.18Z" />
+                    <path d="M43.55,16.67H3.93a.5.5,0,0,1,0-1H43.55a.5.5,0,0,1,0,1Z" />
+                    <path d="M43.55,20.59H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,20.59Z" />
+                    <path d="M43.55,24.51H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,24.51Z" />
+                    <path d="M43.55,28.43H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,28.43Z" />
+                    <path d="M43.55,32.34H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,32.34Z" />
+                    <path d="M43.55,36.26H3.93a.5.5,0,0,1-.5-.5.5.5,0,0,1,.5-.5H43.55a.5.5,0,0,1,.5.5A.5.5,0,0,1,43.55,36.26Z" />
+                  </g>
+                </g>
+              </svg>
+              <span>綿糸・絹糸・毛糸・合成繊維など</span>
+            </div>
           </div>
-          <div class="col-6 col-lg-3 d-flex flex-column justify-content-around align-items-center border">
-            <p>生地を扱いしたい</p>
-            <img src="" alt="image">
-            <p>綿・絹・毛・合成繊維・革など</p>
+          <div class="col-6 col-lg-3 bg-akane py-5 py-lg-5rem   border">
+            <div class="d-flex flex-column flex-fill justify-content-around align-items-center text-white h-12rem">
+              <span>生地を扱いしたい</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.93 76.78" class="icon">
+                <defs>
+                  <style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}</style>
+                </defs>
+                <title>生地</title>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                  <g id="デザイン">
+                    <line class="cls-1" x1="52.54" y1="16.63" x2="4.39" y2="16.63" />
+                    <rect class="cls-1" x="4.39" y="16.63" width="48.15" height="59.65" />
+                    <path class="cls-1" d="M52.54,16.63c.89,0,1.61-3.61,1.61-8.07S53.43.5,52.54.5H4.39" />
+                    <path class="cls-1" d="M4.39,16.63c-.89,0-1.61-3.61-1.61-8.07S3.5.5,4.39.5" />
+                    <polyline class="cls-1" points="55.97 10.68 54.15 10.68 54.15 6.44 55.97 6.44" />
+                    <path class="cls-1" d="M56,6.44c.26,0,.46.95.46,2.12s-.2,2.12-.46,2.12" />
+                    <polyline class="cls-1" points="0.96 10.68 2.78 10.68 2.78 6.44 0.96 6.44" />
+                    <path class="cls-1" d="M1,6.44C.71,6.44.5,7.39.5,8.56s.21,2.12.46,2.12" />
+                  </g>
+                </g>
+              </svg>
+              <span>綿・絹・毛・合成繊維・革など</span>
+            </div>
           </div>
-          <div class="col-6 col-lg-3 d-flex flex-column justify-content-around align-items-center border">
-            <p>染料を扱いしたい</p>
-            <img src="" alt="image">
-            <p>日本茜 100% 天然染料</p>
+          <div class="col-6 col-lg-3 bg-akane py-5 py-lg-5rem   border">
+            <div class="d-flex flex-column flex-fill justify-content-around align-items-center text-white h-12rem">
+              <p>染料を扱いしたい</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.74 53.16" class="icon">
+                <defs>
+                  <style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}</style>
+                </defs>
+                <title>染料</title>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                  <g id="デザイン">
+                    <path class="cls-1" d="M.5.5c1.8.89,1.93,4.61,1.93,6.76V48.14c0,2.5,7.44,4.52,19.94,4.52s19.93-2,19.93-4.52V7.26c0-2.15.14-5.87,1.94-6.76" />
+                    <line class="cls-1" x1="2.43" y1="13.1" x2="42.3" y2="13.1" />
+                  </g>
+                </g>
+              </svg>
+              <p>日本茜 100% 天然染料</p>
+            </div>
+
           </div>
-          <div class="col-6 col-lg-3 d-flex flex-column justify-content-around align-items-center border">
-            <p>商品を開発したい</p>
-            <img src="" alt="">
-            <p>日本茜で染めた商品の開発</p>
+          <div class="col-6 col-lg-3 bg-akane py-5 py-lg-5rem   border">
+            <div class="d-flex flex-column flex-fill justify-content-around align-items-center text-white h-12rem">
+              <p>商品を開発したい</p>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.18 71.95" class="icon">
+                <defs>
+                  <style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;}</style>
+                </defs>
+                <title>商品</title>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                  <g id="デザイン">
+                    <ellipse class="cls-1" cx="21.09" cy="15.79" rx="20.1" ry="15.29" />
+                    <path class="cls-1" d="M36.9,15.79c.56,5.42-3.36,9.48-9.25,10.94" />
+                    <path class="cls-1" d="M30.13,29.44c.4,2.93-10.62,33.34-12.89,37.19l19.4,4.82s7.8-30.82,4-52.08" />
+                    <path class="cls-1" d="M22.24,17.39a20,20,0,0,1-10.06-5.2s.29-7,8.91-7,9,7,9,7S25.09,17.23,22.24,17.39Z" />
+                    <path class="cls-1" d="M33.45,27.83c.79,5.75-1.49,15.11-5.81,27.31" />
+                    <path class="cls-1" d="M4.84,24.84a39.28,39.28,0,0,0-.43,8.92" />
+                    <path class="cls-1" d="M21.09,67.58,5.54,71.45s-7.8-30.82-4-52.08" />
+                    <path class="cls-1" d="M12.06,29.44c-.28,2,5,17.37,8.94,27.82" />
+                  </g>
+                </g>
+              </svg>
+              <p>日本茜で染めた商品の開発</p>
+
+            </div>
           </div>
         </div>
-
       </div>
     </section>
     <footer>
-      <div class="container">
-        <div class="row">
+      <div class="container my-3">
+        <div class="row  border-top border-dark">
           <div class="col-12 col-lg-5">
-            <p class="text-nippon-akane">NIPPON AKANE</p>
-            <p class="text-nippon-akane-lab">日本茜研究所</p>
-            <p class="text-address">595-0811 大阪府泉北郡忠岡町忠岡北 2-1-14 かさや儀平 内</p>
-            <p class="text-contact">Tel:0725-32-0162 e-mail:isgmt@sensyu.ne.jp</p>
+            <!-- <p class="text-nippon-akane">NIPPON AKANE</p> -->
+            <!-- <p class="text-nippon-akane-lab">日本茜研究所</p> -->
+            <img src="./images/asset_日本茜研究所@3x.png" alt="" class="img-fluid  py-3">
+            <p class="text-address small">595-0811 大阪府泉北郡忠岡町忠岡北 2-1-14 かさや儀平 内</p>
+            <p class="text-contact small">Tel:0725-32-0162 e-mail:isgmt@sensyu.ne.jp</p>
 
           </div>
           <div class="col-12 col-lg-7 d-flex flex-wrap">
-            <p>日本茜研究会とは</p>
-            <p>「かさや儀平」と「美し山の草木舎」が連携して起ち上げた任意団体です。</p>
-            <p>かさや儀平: https://izumi-akane-no-sato.jimdo.com/</p>
-            <p>美し山の草木舎: https://soumokutya.jimdo.com/</p>
+            <span>日本茜研究会とは</span>
+            <span>「かさや儀平」と「美し山の草木舎」が連携して起ち上げた任意団体です。</span>
+            <span>かさや儀平: https://izumi-akane-no-sato.jimdo.com/</span>
+            <span>美し山の草木舎: https://soumokutya.jimdo.com/</span>
           </div>
         </div>
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 text-center">
-            <span class="text-copyright small">Copyright © 2018 NIPPON AKANE, All rights reserved</span>
+          <div class="col-12 text-center bg-akane p-2">
+            <span class="small text-white">Copyright © 2018 NIPPON AKANE, All rights reserved</span>
           </div>
         </div>
       </div>
     </footer>
 
-    <section id="404" class="border">
+    <section id="404" class="">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center text-akane">
             <h1>只今工事中です</h1>
             <p>ページへのアクセスありがとうございます。</p>
             <p>申し訳ございませんが、このページは現在製作中となっております。</p>
@@ -394,6 +502,7 @@
           $('#mySidenav').toggleClass('active');
           $('.trigger-text').toggleClass('active');
         });
+        // $('*').addClass('border');
       });
     </script>
   </body>
