@@ -193,6 +193,10 @@ footer {
   max-height: 100vh;
 }
 
+.h-4rem {
+  height: 4rem;
+}
+
 .h-10rem {
   height: 10rem;
 }
@@ -201,18 +205,16 @@ footer {
   height: 12rem;
 }
 
-/* ロゴっぽくしている */
-.navbar-brand {
-  line-height: .9rem;
-  padding: 0 .5rem;
-}
-
 #mySidenav {
   width: 0;
 }
 
 #mySidenav.active {
   width: 16rem;
+}
+
+#first-view {
+  height: calc(100vh - 5rem);
 }
 
 .sidenav .nav-item {
@@ -268,26 +270,6 @@ transition: opacity ease-out .7s;
   padding-left: 2rem;
 }
 
-/* The navigation menu links */
-/* .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-} */
-/* When you mouse over the navigation links, change their color */
-/* .sidenav a:hover {
-  color: #f1f1f1;
-} */
-/* Position and style the close button (top right corner) */
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-/* #main {
-  transition: margin-left .5s;
-  padding: 20px;
-} */
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 .menu-trigger,
 .menu-trigger * {
   /* display: block; */
@@ -373,6 +355,10 @@ transition: opacity ease-out .7s;
   .py-lg-5rem {
     padding-top: 10rem !important;
     padding-bottom: 10rem !important;
+  }
+
+  .h-lg-5rem {
+    height: 5rem;
   }
 
   .h-lg-100vh {
