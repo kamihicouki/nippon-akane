@@ -235,29 +235,14 @@ footer {
   height: calc(100vh - 4rem);
 }
 
-#mySidenav {
-  width: 0;
-}
-
-#mySidenav.active {
-  width: 18rem;
-}
-
 .over-hidden {
   overflow: hidden;
 }
 
-/* .carousel.carousel-fade .carousel-item {
-opacity: 0;
-transition: opacity ease-out .7s;
+.carousel-item img {
+  width: 100%;
 }
 
-.carousel.carousel-fade .carousel-item.active {
-  opacity: 1 !important;
-  transition: opacity ease-out .7s;
-}
-
-*/
 /* #revival-akane .container-fluid {
   height: 15rem;
 } */
@@ -265,32 +250,24 @@ transition: opacity ease-out .7s;
 /* The side navigation menu */
 .sidenav {
   height: 100vh;
-  /* 100% Full-height */
   width: 0;
-  /* 0 width - change this with JavaScript */
   position: fixed;
-  /* Stay in place */
-  /* z-index: 1010; */
-  /* Stay on top */
   top: 0;
-  /* Stay at the top */
   right: 0;
   background-color: rgba(255, 255, 255, 0.9);
   overflow-x: hidden;
-  /* Disable horizontal scroll */
   padding-top: 3rem;
-  /* Place content 60px from the top */
   transition: 0.5s;
   white-space: nowrap;
+}
+
+.sidenav.active {
+  width: 18rem;
 }
 
 .navbar .nav-link:hover {
   color: inherit;
   border-bottom: .05rem solid black;
-}
-
-.nav-pill .nav-items {
-  /* padding: */
 }
 
 .navbar-nav .nav-item {
@@ -299,9 +276,7 @@ transition: opacity ease-out .7s;
 
 .menu-trigger,
 .menu-trigger * {
-  /* display: block; */
   transition: all .6s;
-  /* box-sizing: border-box; */
 }
 
 .menu-trigger {
@@ -336,12 +311,7 @@ transition: opacity ease-out .7s;
   height: 100vw;
 }
 
-/* .menu-trigger.active::after {
-  content: 'CLOSE';
-} */
 .menu-trigger.active .trigger-line:nth-of-type(1) {
-  /* -webkit-transform: translateY(20px) rotate(-45deg); */
-  /* transform: translateY(20px) rotate(-45deg); */
   transform: translateY(0.6rem) rotate(-45deg);
 }
 
@@ -350,15 +320,7 @@ transition: opacity ease-out .7s;
 }
 
 .menu-trigger.active .trigger-line:nth-of-type(3) {
-  /* -webkit-transform: translateY(-20px) rotate(45deg); */
-  /* transform: translateY(-20px) rotate(45deg); */
   transform: translateY(-.6rem) rotate(45deg);
-}
-
-#handling-akane *[class*="col-"] {
-  /* padding-top: 5rem; */
-  /* padding-bottom: 5rem; */
-  /* height: 8rem; */
 }
 
 /* https://www.nxworld.net/tips/10-css-hamburger-menu-icon-design-and-effect.html */
@@ -372,10 +334,6 @@ transition: opacity ease-out .7s;
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #handling-akane *[class*="col-"] {
-    /* height: 20rem; */
-  }
-
   .py-lg-5rem {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
@@ -411,7 +369,8 @@ transition: opacity ease-out .7s;
     height: 200%;
   }
 
-  .h-100vh-minus-nav {
+  .h-100vh-minus-nav,
+  .h-lg-fit {
     height: calc(100vh - 5rem);
   }
 }
