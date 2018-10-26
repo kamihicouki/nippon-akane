@@ -5,19 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/master.css">
     <title>NIPPON AKANE | 日本茜</title>
   </head>
 
   <body>
 
-    <nav class="navbar bg-white-transparent sticky-top h-4rem h-lg-5rem">
+    <nav class="navbar bg-white-transparent sticky-top h-4rem h-lg-5rem shadow-sm">
       <a class="navbar-brand p-0 bg-gray" href="#">
         <img src="./images/asset_NIPPON_AKANE@3x.png" alt="" width="200">
       </a>
-      <ul class="navbar-nav sidenav font-kozgopr6n" id="mySidenav">
+      <ul class="navbar-nav sidenav font-kozgopr6n shadow-sm" id="mySidenav">
         <li class="nav-item">
           <a class="nav-link" href="#">トップ へ</a>
         </li>
@@ -415,10 +415,10 @@
           <div class="col-12 col-lg-7 d-flex flex-column justify-content-end">
             <p class="font-kozgopr6n font-weight-light">日本茜研究会とは</p>
             <p class="font-kozgopr6n font-weight-light">「かさや儀平」と「美し山の草木舎」が連携して起ち上げた任意団体です。</p>
-            <p class="font-kozgopr6n font-weight-light small d-flex flex-wrap">
-              <span class="px-1">かさや儀平: https://izumi-akane-no-sato.jimdo.com/</span>
-              <span class="px-1">美し山の草木舎: https://soumokutya.jimdo.com/</span>
-            </p>
+            <div class="font-kozgopr6n font-weight-light d-flex flex-wrap">
+              <p class="px-1">かさや儀平: https://izumi-akane-no-sato.jimdo.com/</p>
+              <p class="px-1">美し山の草木舎: https://soumokutya.jimdo.com/</p>
+            </div>
           </div>
         </div>
       </div>
@@ -444,9 +444,10 @@
       </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $('#navbarToggle').on('click', function() {
@@ -457,7 +458,11 @@
         });
         // $('*').addClass('border');
       });
+      var myLazyLoad = new LazyLoad({
+        elements_selector: "img"
+      });
     </script>
+
   </body>
 
 </html>
