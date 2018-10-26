@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.18 71.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>asset_pictogram_商品</title>
+  <g id="レイヤー_2" data-name="レイヤー 2">
+    <g id="デザイン"><ellipse class="cls-1" cx="21.09" cy="15.79" rx="20.1" ry="15.29"/><path class="cls-1" d="M36.9,15.79c.56,5.42-3.36,9.48-9.25,10.94"/><path class="cls-1" d="M30.13,29.44c.4,2.93-10.62,33.34-12.89,37.19l19.4,4.82s7.8-30.82,4-52.08"/><path class="cls-1" d="M22.24,17.39a20,20,0,0,1-10.06-5.2s.29-7,8.91-7,9,7,9,7S25.09,17.23,22.24,17.39Z"/><path class="cls-1" d="M33.45,27.83c.79,5.75-1.49,15.11-5.81,27.31"/><path class="cls-1" d="M4.84,24.84a39.28,39.28,0,0,0-.43,8.92"/><path class="cls-1" d="M21.09,67.58,5.54,71.45s-7.8-30.82-4-52.08"/><path class="cls-1" d="M12.06,29.44c-.28,2,5,17.37,8.94,27.82"/></g>
+  </g>
+</svg>
