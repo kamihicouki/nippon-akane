@@ -1,8 +1,5 @@
-/* @font-face {
-  font-family: 'MyriadPro';
-  src: url('../fonts/MyriadPro-Regular.otf');
-  font-weight: 400;
-} */
+@charset "utf-8";
+
 @font-face {
   font-family: 'MyriadPro';
   src:
@@ -50,11 +47,16 @@
     url('../fonts/FOT-TsukuMinPro-D.otf') format('opentype');
 }
 
+html {
+  font-size: .85rem;
+}
+
 ::selection {
   background: #9D2932;
   color: #fff;
 }
 
+.border-bottom-akane,
 .border-akane-bottom {
   border-bottom: 1px solid #9D2932;
 }
@@ -64,20 +66,58 @@
 }
 
 .font-kozgopr6n {
-  font-family: KozGoPr6N;
+  font-family: 'KozGoPr6N';
 }
 
 .font-tsukuminpro {
   font-family: 'TsukuMinPro';
 }
 
-.font-mincho {
-  font-family: font-family: Georgia, 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", HGS明朝E, メイリオ, Meiryo, serif;
+.cvt {
+  /* Continuously Variable text */
+  font-size: calc(100% + 1vw);
 }
 
 .color-box {
   width: 100%;
-  height: 5rem;
+  height: 8.5rem;
+}
+
+.pictogram {
+  width: 3rem;
+}
+
+.symbol {
+  display: none;
+  height: 4rem;
+}
+
+.img-logo {
+  display: inline-block;
+  padding: 1rem 0;
+  width: 15rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.size-1 {
+  font-size: 1.1rem;
+}
+
+.size-2 {
+  font-size: 1.2rem;
+}
+
+.size-3 {
+  font-size: 1.3rem;
+}
+
+.size-4 {
+  font-size: 1.4rem;
+}
+
+.size-5 {
+  font-size: 1.5rem;
 }
 
 a {
@@ -101,8 +141,7 @@ p, span {
 }
 
 .border-akane {
-  border: 1px solid #9D2932;
-  /* border-bottom: .1rem solid #9D2932; */
+  border-color: #9D2932 !important;
 }
 
 .text-ake {
@@ -170,18 +209,15 @@ p, span {
 }
 
 .bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bright-down-1 {
+  filter: brightness(80%);
 }
 
 svg.icon {
   width: 2rem;
-}
-
-svg path {
-  color: white;
-  color-fill: white;
-  stroke: white;
-  fill: white;
 }
 
 .text-copyright {
@@ -199,6 +235,10 @@ footer {
   max-height: 100vh;
 }
 
+.h-fit {
+  height: calc(100vh - 4rem);
+}
+
 .h-4rem {
   height: 4rem;
 }
@@ -213,6 +253,10 @@ footer {
 
 .h-12rem {
   height: 12rem;
+}
+
+.h-13rem {
+  height: 13rem;
 }
 
 .h-14rem {
@@ -240,7 +284,16 @@ footer {
 }
 
 .carousel-item img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img-cover {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* #revival-akane .container-fluid {
@@ -327,13 +380,25 @@ footer {
 /* // Extra small devices (portrait phones, less than 576px) */
 /* // No media query since this is the default in Bootstrap */
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  html {
+    font-size: 0.95rem;
+  }
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  html {
+    font-size: 1.05rem;
+  }
+}
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  html {
+    font-size: 1.15rem;
+  }
+
   .py-lg-5rem {
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
@@ -353,8 +418,21 @@ footer {
     height: 5rem;
   }
 
+  .symbol {
+    display: inline-block;
+    height: 5rem;
+  }
+
+  .h-lg-15rem {
+    height: 15rem;
+  }
+
   .h-lg-20rem {
     height: 20rem;
+  }
+
+  .h-lg-30rem {
+    height: 30rem;
   }
 
   .h-lg-100vh {
