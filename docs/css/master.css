@@ -61,6 +61,33 @@ html {
   border-bottom: 1px solid #9D2932;
 }
 
+.ornament-history {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.ornament-history::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  border-top: 1px solid #9D2932;
+}
+
+.ornament-history::after {
+  position: absolute;
+  content: '';
+  height: 1rem;
+  width: 1rem;
+  background: #9D2932;
+  border-radius: 50%;
+  right: -0.5rem;
+}
+
+.tab-content>.active {
+  display: flex;
+}
+
 .font-myriadpro {
   font-family: 'MyriadPro';
 }
@@ -446,6 +473,10 @@ footer {
   .h-100vh-minus-nav,
   .h-lg-fit {
     height: calc(100vh - 5rem);
+  }
+
+  .ornament-history {
+    /* display: flex; */
   }
 }
 
