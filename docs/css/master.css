@@ -67,6 +67,10 @@ html {
   align-items: center;
 }
 
+.wrap-keep {
+  overflow-wrap: break-word;
+}
+
 .ornament-history::before {
   position: absolute;
   content: '';
