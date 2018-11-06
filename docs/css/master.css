@@ -369,6 +369,11 @@ footer {
   border-color: black;
 }
 
+.text-wide {
+  /* line-height: 1.35; */
+  letter-spacing: .15rem;
+}
+
 .menu-trigger,
 .menu-trigger * {
   transition: all .6s;
